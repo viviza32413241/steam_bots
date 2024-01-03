@@ -4,7 +4,6 @@ import telebot
 
 bot=telebot.TeleBot(config.token2)
 steamkey=config.steam_key
-#76561198886990939
 
 list_options=["deaths", 'bullet fired', 'kill player', 'bullet hit player', 'headshot', 'harvested wood', 'harvested stones']
 url="https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=252490&key="+steamkey+"&steamid="
